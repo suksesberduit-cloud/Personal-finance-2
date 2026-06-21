@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract project zip
         run: |
-          unzip -o SOVEREIGN-Android-Widget-v40_11.zip -d extracted
+          unzip -o SOVEREIGN-Android-Widget-v40_12.zip -d extracted
           ls -la extracted
 
       - uses: actions/setup-java@v4
